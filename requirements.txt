@@ -1,0 +1,10 @@
+streamlit
+smtplib
+email.message
+sqlite3
+random
+datetime
+io
+streamlit_option_menu
+csv
+pandas
