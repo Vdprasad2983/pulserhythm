@@ -10,7 +10,7 @@ import csv
 import pandas as pd
 
 st.set_page_config(layout="wide")
-#st.image("aboutaec.jpg",use_container_width=True)
+#st.image("aboutaec.jpg",use_column_width=True)
 if 'otp' not in st.session_state:
     st.session_state.otp = None
 if 'otp_verified' not in st.session_state:
@@ -70,7 +70,7 @@ if st.session_state.auth == 0:
             c1.subheader("Project Scope")
             c1.write("The project aims to develop an IoT-based system for real-time ECG monitoring and arrhythmia prediction, leveraging deep learning algorithms for accurate diagnosis and timely intervention. The system will integrate MAX30102 and AD8232 sensors to measure heart pulse and ECG signals, storing data securely on cloud platforms for remote access. Deep neural networks (DNNs) will analyze ECG patterns to detect and predict arrhythmias, enhancing early diagnosis and intervention. A real-time alert system will send alerts to healthcare providers and patients, enabling timely medical intervention and reducing mortality rates. The cloud-based data management system will securely store and manage patient data, ensuring data privacy and accessibility for healthcare providers.")
             c1.subheader("Block Diagram")
-            c1.image("block_diagram.png",use_container_width=True)
+            c1.image("block_diagram.png",use_column_width=True)
             
             c3,c4=st.columns([1,1])
             c3.subheader("Components used")
@@ -101,9 +101,9 @@ if st.session_state.auth == 0:
             c1.image("Connections_1.jpg",width=500)    
             c1.subheader("Present output")   
             c3,c4=st.columns([1,1])
-            c3.image("Figure_1.png",use_container_width=True)
-            c4.image("Figure_3.png",use_container_width=True)
-            c1.image("hroutput.png",use_container_width=True)
+            c3.image("Figure_1.png",use_column_width=True)
+            c4.image("Figure_3.png",use_column_width=True)
+            c1.image("hroutput.png",use_column_width=True)
             
             c1.subheader("Conclusion")
             c1.write("The proposed system offers a novel approach to real-time ECG monitoring and arrhythmia prediction, leveraging IoT and AI technologies for enhanced healthcare services. By integrating MAX30102 and AD8232 sensors, the system can measure heart pulse and ECG signals, storing data securely on cloud platforms for remote access. Deep learning algorithms analyze ECG patterns to detect and predict arrhythmias, enabling early diagnosis and intervention. The real-time alert system sends alerts to healthcare providers and patients, facilitating timely medical intervention and reducing mortality rates. The cloud-based data management system ensures secure storage and access to patient data, enhancing healthcare services and patient outcomes.")
