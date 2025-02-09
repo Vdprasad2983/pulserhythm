@@ -1,10 +1,3 @@
-streamlit
-smtplib
-email.message
-sqlite3
-random
-datetime
-io
-streamlit_option_menu
-csv
-pandas
+streamlit==1.14.0
+streamlit-option-menu==0.3.0
+pandas==1.5.2
