@@ -3,3 +3,6 @@ pandas==1.5.2
 numpy==1.23.5
 streamlit==1.42.0
 streamlit-option-menu==0.3.0
+psycopg2
+boto3
+io
