@@ -1,6 +1,6 @@
-pandas==1.5.2
-numpy==1.23.5
-streamlit==1.42.0
-streamlit-option-menu==0.3.0
-psycopg2
-boto3==1.24.2
+pandas==2.2.3
+numpy==1.26.4
+streamlit==1.42.2
+streamlit-option-menu==0.4.0
+psycopg2==2.9.10
+boto3==1.37.30
